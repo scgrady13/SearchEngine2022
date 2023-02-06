@@ -1,3 +1,3 @@
 # SearchEngine2022
 
-Search Engine for RapidJSON files using an AVLtree
+The project is to build a search engine for a collection of financial news articles from Jan-May 2018. The dataset contains more than 300,000 articles in JSON format, which is a "lightweight data interchange format" that is easily readable by humans and machines. The search engine has 4 main components: a document parser/processor, a query processor, a search processor, and a ranking processor. The document parser/processor removes stopwords, stems words, and computes relevancy ranking information. The query processor parses and processes user queries in a simple prefix Boolean format with AND or OR operators. The search processor searches the inverted file index created by the index handler and returns results based on the ranking information from the document parser/processor.
